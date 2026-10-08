@@ -9,7 +9,7 @@ An automated, serverless, and production-ready ETL pipeline deployed on **Google
 ```text
 [ External APIs ] 
   ├── Open-Meteo API (Weather)
-  └── RapidAPI / OpenSky (Flights)
+  └── RapidAPI (Flights)
           │
           ▼
 [ GCP Cloud Functions (2nd Gen) ]  ◄── [ Cloud Scheduler (Daily Trigger: 0 1 * * *) ]
