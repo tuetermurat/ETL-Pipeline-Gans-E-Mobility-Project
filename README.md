@@ -24,6 +24,7 @@ An automated, serverless, and production-ready ETL pipeline deployed on **Google
   ├── weather
   └── flights
 
+---
 
 🎯 Problem & Key Features
 Automated Data Aggregation: Eliminates manual data collection by running scheduled daily pipelines via GCP Cloud Scheduler.
@@ -49,3 +50,6 @@ Orchestration: Integrated into a unified HTTP function (run_full_etl) triggered 
 Cloud Infrastructure: GCP Cloud Functions (2nd Gen), GCP Cloud SQL, GCP Secret Manager, GCP Cloud Scheduler.
 
 Core Libraries: Python 3.10+, pandas, SQLAlchemy, PyMySQL, requests, functions-framework.
+
+```text
+
